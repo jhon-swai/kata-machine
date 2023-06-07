@@ -1,4 +1,4 @@
-import linear_fn from "@code/LinearSearchList"
+import linear_fn from "../algorithms/LinearSearchList"
 
 test("linear search array", function() {
 

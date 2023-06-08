@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "strict": true,
         "outDir": "dist",
         "allowJs": true,
         "noImplicitAny": true,
@@ -12,9 +13,10 @@
         "baseUrl": "src",
         "paths": {
             "@code/*": [
-                "day2/*"
+                "algorithms/*"
             ]
-        }
+        },
+        "forceConsistentCasingInFileNames": true,
     },
     "include": [
         "./src/**/*"

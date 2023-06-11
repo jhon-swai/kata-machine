@@ -2,7 +2,7 @@ export default function BinarySearchList(
     haystack: number[],
     needle: number,
 ): boolean {
-    let low: number = 0;
+    let low = 0;
     let high: number = haystack.length;
     let mid: number;
 

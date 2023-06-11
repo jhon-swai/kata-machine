@@ -7,9 +7,10 @@ on:
 jobs: 
   Jest: 
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps: 
       - uses: actions/checkout@v1
-      - name: Run Tests
-        run: | 
-          npm install
-          npm run test:ci
+      - name: Install Packages
+        run: npm install
+      - name: Run jest 
+        run: npm run test:ci

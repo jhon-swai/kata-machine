@@ -24,3 +24,5 @@ export default function BinarySearchList(
 
     return false;
 }
+
+// if the input halves at each step, it's likely O(log n), or O(Nlog N)

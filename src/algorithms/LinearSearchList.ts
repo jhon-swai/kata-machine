@@ -6,3 +6,5 @@ export default function LinearSearchList(haystack: number[], needle: number): bo
     }
     return false
 }
+
+// O(n)

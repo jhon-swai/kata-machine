@@ -1,4 +1,4 @@
-export default function bubble_sort(arr: number[]): number[] {
+export default function bubble_sort(arr: number[]): void {
   let arryLength = arr.length;
   let temp: number;
   for (; arryLength > 0; arryLength--) {
@@ -10,7 +10,6 @@ export default function bubble_sort(arr: number[]): number[] {
       }
     }
   }
-  return arr;
 }
 
 // big O notation
